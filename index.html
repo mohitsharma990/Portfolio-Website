@@ -16,18 +16,21 @@
     
 
     <header>
-
+        
         <!-- Creating Menu Tabs & logo using HTML -->
         <a href="#" class="logo">Portfolio</a>
 
+
+        <div class="toggle" onclick="toggleMenu();"></div>
+
         <!--Shortcut for below some part: ul.menu>li*6>a[href=#home]{Home} -->
         <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#myskills">My Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#myskills" onclick="toggleMenu();">My Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
             <!-- <li><a href="#testimonials">Testimonials</a></li> -->
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
 
     </header>
@@ -66,7 +69,7 @@
                     laborumerror veniam?</p>
 
                 <div class="heading bottom">
-                    <a href="Images/resume.docx" target="_blank " class="btn round">Download CV</a>
+                    <a href="Images/ResumeMohit.pdf" target="_blank " class="btn round">Download CV</a>
 
                     <div class="bt">
                         <b>Name: </b> Mohit Sharma <br>
